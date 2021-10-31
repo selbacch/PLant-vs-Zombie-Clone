@@ -1,0 +1,64 @@
+{
+    "name": "Controle",
+    "maps": [
+        {
+            "name": "Mouse",
+            "id": "8c728aa9-2f01-4c9c-b772-b04c13136791",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Value",
+                    "id": "d2582fb0-9dee-4d27-8d60-8c706757cd14",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "1ebef8c8-1523-423b-95e6-270d5e11b125",
+                    "expectedControlType": "Vector2",
+                    "processors": "NormalizeVector3",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1ca19c87-5a2d-433c-84a0-512955870dce",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "mouse",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1fdc0a97-28e3-419d-a0fa-cd503b2806bf",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "mouse",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "mouse",
+            "bindingGroup": "mouse",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
