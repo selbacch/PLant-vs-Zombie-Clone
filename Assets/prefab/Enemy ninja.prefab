@@ -129,7 +129,7 @@ PrefabInstance:
     - target: {fileID: 7257157945578676766, guid: 43581e95178d75d49bd6718bf1117980,
         type: 3}
       propertyPath: Life
-      value: 80
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 7257157945578676767, guid: 43581e95178d75d49bd6718bf1117980,
         type: 3}

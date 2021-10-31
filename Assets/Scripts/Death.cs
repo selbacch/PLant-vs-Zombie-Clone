@@ -37,6 +37,7 @@ public class Death : MonoBehaviour
                 Animator anim = GetComponentInChildren<Animator>();
                 anim.SetBool("Death", true);
                 dead(3); }
+            deat = true;
         }
     }
 

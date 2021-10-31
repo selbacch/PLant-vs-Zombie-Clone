@@ -21,10 +21,10 @@ public class LajotaTaken : MonoBehaviour
             if (Tower.GetComponent<Death>().deat == true)
             {
                 isTaken = false;
-
+                Tower = null;
             }
         }
         if (Tower == null)
-            return;
+            return; 
     }
 }

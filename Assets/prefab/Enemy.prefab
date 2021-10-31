@@ -127,6 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ISTower: 0
+  deat: 0
 --- !u!114 &7257157945578676761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,8 +156,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 5
   Cooldown: 1
-  controle: {fileID: 6481295494479502294, guid: 67fbc0db2ee4382459b6909371f7f4b7,
-    type: 3}
 --- !u!65 &7257157945578676762
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -168,8 +167,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1.8019563, z: 1}
-  m_Center: {x: 0, y: 0.40097874, z: 0}
+  m_Size: {x: 1, y: 1.8019563, z: 1.1991304}
+  m_Center: {x: -4.4911558e-10, y: 0.40097874, z: -0.09956535}
 --- !u!54 &7257157945578676763
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -216,7 +215,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3b1fd41dc9190f04db8b3ceaa4354b0f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.545
+      value: 0.147
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3b1fd41dc9190f04db8b3ceaa4354b0f,
         type: 3}
@@ -226,7 +225,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 3b1fd41dc9190f04db8b3ceaa4354b0f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.043
+      value: -0.081
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 3b1fd41dc9190f04db8b3ceaa4354b0f,
         type: 3}
