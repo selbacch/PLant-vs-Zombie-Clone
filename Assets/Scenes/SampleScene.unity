@@ -4340,12 +4340,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062481882}
   m_Mesh: {fileID: 1928580331658088537, guid: 497a09ffa8eb8714091dd07204340855, type: 3}
---- !u!1 &1066132460 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 347416974071696913, guid: 67fbc0db2ee4382459b6909371f7f4b7,
-    type: 3}
-  m_PrefabInstance: {fileID: 1923285669}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1087780438
 GameObject:
   m_ObjectHideFlags: 0
@@ -8832,26 +8826,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MenuFase
       objectReference: {fileID: 0}
-    - target: {fileID: 347416973871533612, guid: 67fbc0db2ee4382459b6909371f7f4b7,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 347416974071696913, guid: 67fbc0db2ee4382459b6909371f7f4b7,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6481295494479502294, guid: 67fbc0db2ee4382459b6909371f7f4b7,
         type: 3}
       propertyPath: Input
       value: 
       objectReference: {fileID: 1349191174}
-    - target: {fileID: 6481295494479502294, guid: 67fbc0db2ee4382459b6909371f7f4b7,
-        type: 3}
-      propertyPath: menuMorte
-      value: 
-      objectReference: {fileID: 1066132460}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67fbc0db2ee4382459b6909371f7f4b7, type: 3}
 --- !u!1 &1954306371
